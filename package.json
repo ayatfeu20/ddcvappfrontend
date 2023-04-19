@@ -1,0 +1,58 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@djthoms/pretty-checkbox": "^3.1.0",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.7",
+    "dotenv": "^10.0.0",
+    "firebase": "^9.19.1",
+    "fuse.js": "^6.5.3",
+    "gsap": "^3.9.1",
+    "html2pdf.js": "^0.10.1",
+    "pretty-checkbox": "^3.0.3",
+    "pretty-checkbox-react": "^3.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.13.0",
+    "react-fade-in": "^2.0.1",
+    "react-full-height": "^1.2.2",
+    "react-jwt": "^1.1.4",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-search-box": "^2.2.0",
+    "react-simple-animate": "^3.3.12",
+    "react-to-pdf": "^0.0.14",
+    "react-web-share": "^2.0.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env INLINE_RUNTIME_CHUNK=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

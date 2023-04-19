@@ -1,0 +1,501 @@
+body{
+  background-color: #F3FBFF;;
+}
+.login-person{
+   
+  font-size:3rem;
+}
+.login{
+  height:100vh;
+}
+.incorrect-text{
+  color:rgb(196, 72, 72);
+}
+.-width{
+  width:100%;
+  border-radius: 7px;
+}
+.login-text{
+  font-weight: 700;
+}
+.btn-color{
+background-color:#02598D;
+}
+.btn-color:hover{
+background-color:#0572b1;
+}
+.btn-color::after{
+  background-color:#02598D!important;
+}
+.btn-color:active{
+  background-color:#02598D!important;
+}
+.wide{
+  width:450px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 7px;
+}
+.edit-info{
+  width: 78%;
+}
+.edit-cv{
+  
+  padding-right: 2rem;
+}
+
+.edit-height{
+  height: 40px;
+}
+.not-member{
+  color:rgb(170, 165, 165);
+  font-weight: 500;
+}
+.signup-link{
+  color:black;
+}
+.remember{
+  height: 30px;
+  color:rgb(170, 165, 165)
+}
+.pointer{
+  cursor:pointer;
+}
+.small-font{
+  font-size:0.7rem;
+}
+
+/* edit card + CV */
+
+.save-button{
+  color: white;
+  border-radius: 7px;
+}
+.save-button-large{
+  color: white;
+  border-radius: 18px;
+}
+
+.line{
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.name-text{
+  font-size: 1.4rem;
+}
+.profile-icon{
+  font-size: 2.5rem;
+  border: 3px solid rgb(243, 237, 237);
+  border-radius: 50%;
+}
+/* image */
+.image{
+  position:relative;
+}
+.image-edit{
+  display: block;
+}
+.overlay-edit{
+  position:absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width:100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size:2rem;
+ opacity: 0;
+ transition:opacity 0.5s;
+ background-color: rgba(255, 255, 255, 0.568);
+ border-radius: 50%;
+ color:rgb(0, 0, 0)
+}
+.overlay-edit:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* photo */
+#upload-photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+/* Technologies */
+.techs{
+  border-radius: 7px;
+  border: 2px solid #dfdada;
+  outline: 0px;
+}
+.technology-array{
+  height:2rem;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 0px 15px;
+}
+.techText {
+  margin-top: 10px;
+}
+.tech-blue{
+  border-radius: 15px;
+  background-color: #59B0E2;
+  color:white; 
+}
+.bord{
+  border: 2px solid #dfdada;
+  border-radius: 15px;
+}
+.height-textarea{
+  height:100px;
+}
+.tech-input{
+  border: 1.8px solid rgba(206, 204, 204, 0.877);
+}
+.tech-input::placeholder{
+  color: rgba(201, 196, 196, 0.877);
+}
+.tech-error{
+  color:rgb(206, 142, 142);
+}
+
+
+.large-input{
+  height:100px;
+  font-size: 16px;
+}
+/* sidebar */
+.full-width{
+  height: 100vh;
+}
+.logo-big{
+height: 100px;
+}
+.logo-small{
+  height: 50px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color:#02598D;
+  }
+  .sidebar-logo{
+    font-size: 1rem;
+  }
+  .nav{
+    width:100%;
+    height:50px;
+    text-decoration: none;
+    color:#9FA2B4;
+  }
+  .nav:hover{
+    background-color: #0F5F90;
+    color:white;
+    cursor: pointer;
+    border-left: 3px solid white;
+    color:white;
+   
+  }
+.selected{
+  background-color: #0F5F90;
+  color:white;
+  cursor: pointer;
+  border-left: 3px solid white;
+  color:white;
+}
+/* navbar mobile */
+.background-project-color{
+  background-color: #02598D !important;
+}
+
+
+/* profile CV card */
+.CV-font{
+  font-family: 'Voltaire', sans-serif;
+
+    color:#02598D;
+  
+}
+ .profile{
+  width: 80%;
+  max-width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 7px; 
+}
+ .profile-oneUser{
+  width: 50%;
+  max-width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 7px; 
+}
+
+@media screen and (max-width: 767px) {
+  .profile {
+    width:100%;
+  } 
+}
+.profilepicture img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profilepictureBig img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profilepictureBiggest img{
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.no-pic{
+  font-size: 130px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 1px 9px 9px 1px;
+}
+.project-color{
+  color:#02598D;
+}
+.project-color-grey{
+  color:#9FA2B4;
+}
+.upload{
+  text-decoration: underline;
+  font-size: 1rem;
+}
+.thicker-text{
+  font-weight: 500;
+}
+.error-message-color{
+  color:rgb(241, 8, 8);
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .h6-start{
+    margin-left: 3.5rem;
+  }
+  .share{
+    width:100%
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h6-start{
+    margin-left: 3.9rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .h6-start{
+    margin-left: 4.5rem;
+  }
+}
+
+
+/* projects */
+.add-btn{
+  border-radius: 18px;
+  background-color: #59B0E2;
+  color:white; 
+}
+.hr-line{
+  height: 0.1rem !important;
+}
+
+
+
+
+/* Employees */
+.employee-page{
+  width: 80%;
+  max-width: 100%;
+
+}
+.employee-card{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 7px; 
+
+}
+.hover-card:hover{
+  box-shadow: rgba(5, 4, 4, 0.2) 8px 16px 64px 8px;
+  cursor: pointer;
+  
+}
+.remove-underline{
+  text-decoration:none;
+}
+.go-back-arrow{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.longer-text{
+  width: 300px;
+}
+
+
+/* search bar */
+.search-bar{
+  border:none;
+  width:90px;
+  background-color: #F3FBFF;
+}
+.search-bar:focus{
+ outline: none;
+ 
+}
+.search-border{
+  border: 2px solid #babbbe;
+  border-radius: 15px;
+}
+.search-icon{
+  color:#9FA2B4;
+  
+}
+
+
+@media screen and (max-width: 991px) {
+  .d-none-small{
+    display: none;
+  }
+}
+
+
+
+
+
+/* All the projects inputs */
+
+.inputField {
+  position: relative;
+}
+.errorBox {
+  padding: 15px;
+  border-radius: 8px;
+  color: crimson;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.inputField input {
+  padding: 8px 20px;
+  padding-top: 18px;
+  border: 1.8px solid rgba(206, 204, 204, 0.877);
+  width: 100%;
+  color: black;
+}
+.validate input{
+  border: 1.8px solid rgb(206, 142, 142) !important;
+}
+.inputField input:focus {
+  border: 1.8px solid #999797;
+  outline: none;
+}
+
+.inputField .Input {
+  pointer-events: none;
+  opacity: 0.5;
+  position: absolute;
+  padding-left: 1rem;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: text;
+}
+.inputField .Input-spec {
+  pointer-events: none;
+  opacity: 0.5;
+  position: absolute;
+  padding-left: 1rem;
+  left: 0;
+  top: 20%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: text;
+}
+
+
+.inputField input:focus+span,
+.inputField input:not(:placeholder-shown)+span {
+  top: 7px;
+  -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+  transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+ 
+}
+.inputField input:focus+.nameInput,
+.inputField input:not(:placeholder-shown)+.nameInput {
+ padding-left: 25px;
+}
+.inputField input:focus+.designationInput,
+.inputField input:not(:placeholder-shown)+.designationInput {
+ padding-left: 18px;
+}
+.inputField input:focus+.locationInput,
+.inputField input:not(:placeholder-shown)+.locationInput {
+ padding-left: 22px;
+}
+
+.inputField input:focus+.phoneInput,
+.inputField input:not(:placeholder-shown)+.phoneInput {
+ padding-left: 14px;
+}
+.inputField input:focus+.emailInput,
+.inputField input:not(:placeholder-shown)+.emailInput {
+ padding-left: 24px;
+}
+.inputField input:focus+.passwordInput,
+.inputField input:not(:placeholder-shown)+.passwordlInput {
+ padding-left: 20px;
+}
+.inputField input:focus+.projectnameInput,
+.inputField input:not(:placeholder-shown)+.projectnameInput {
+ padding-left: 15px;
+}
+.inputField input:focus+.date,
+.inputField input:not(:placeholder-shown)+.date {
+ padding-left: 20px;
+}
+.inputField input:focus+.project-desc,
+.inputField input:not(:placeholder-shown)+.project-desc {
+ padding-left: 10px;
+}
+.inputField input:focus+.company-name,
+.inputField input:not(:placeholder-shown)+.company-name {
+ padding-left: 12px;
+}
+
+
+.inputField input,
+.inputField span {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+input[readOnly]{
+  background-color:white;
+}
